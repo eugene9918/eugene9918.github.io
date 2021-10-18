@@ -1,0 +1,3 @@
+- backends/api 에서 `yarn accessToken` 실행하면 user의 accessToken과 refreshToken 생성
+  - refreshToken을 frontends/main/.env에 설정하면 login 과정 건너뛰기 가능
+- accessToken을 usercontroller login method input에 넣으면 자동으로 header에 실어서 complete sign up mutation에 사용
